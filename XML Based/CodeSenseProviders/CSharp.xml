@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+CodeSense Providers map contexts in a document to possible completions. The actual completions are defined in the various CodeSense libraries, categorized using their key. A CodeSense Provider tells Espresso what CodeSense libraries are active in the current context. One of these XML files can contain many <provider> elements.
+
+-->
+<codesense>
+	
+	<provider>
+        <selector>*</selector>
+		<completions>com.conceitedsoftware.identifier.function.support</completions>
+		<completions>com.conceitedsoftware.identifier.global-variables</completions>
+		<completions>com.conceitedsoftware.keyword.scope</completions>
+		<completions>com.conceitedsoftware.identifier.snippets</completions>
+		<completions>com.conceitedsoftware.magic-constants</completions>
+		<complete-match>[\$a-zA-Z0-9-_]+</complete-match>
+	</provider>
+    
+</codesense>

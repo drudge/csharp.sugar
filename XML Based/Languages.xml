@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings>
+
+	<language id="com.conceitedsoftware.CSharp">
+		<name>C#</name>
+		<root-zone>sourcecode.csharp</root-zone>
+		
+		<detectors>
+			<extension casesensitive="false">cs</extension>
+		</detectors>
+		
+		<meta>
+		    <name>
+		        C#
+		    </name>
+		    <description>
+		       C# sugar for Espresso.
+		    </description>
+		    <author>
+		        Nicholas Penree
+		    </author>
+		    <identifier>
+		        com.conceitedsoftware.CSharp
+		    </identifier>
+		    <version status="preview">
+		        1.0b
+		    </version>
+		    <dependencies>
+                <dependency id="name.elliottcable.Sugar.Regex">Regex</dependency>
+            </dependencies>
+		</meta>
+		
+	</language>
+	
+</settings>
